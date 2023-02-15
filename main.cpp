@@ -196,7 +196,7 @@ int main(int argc, char* argv[]) {
 
 	SceneData sceneData;
 	
-	twoSpheres(sceneData, imageData, cameraData);
+	cornellius2Box(sceneData, imageData, cameraData);
 
 	std::cerr << "(Info): Finished Scene Data Collection, Initializing Renderer" << std::endl;
 
